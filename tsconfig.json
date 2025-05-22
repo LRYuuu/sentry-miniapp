@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "ESNext",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "integrations/*": ["../sentry/src/integrations/index.ts"],
+            "transports/*": ["../sentry/src/transports/index.ts"],
+        },
+        "moduleResolution": "node"
+    },
+    "include": ["src"],
+    "exclude": []
+}
